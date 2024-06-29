@@ -11,7 +11,7 @@ let package = Package(
         // Se define la visibilidad de la librería
         .library(
             name: "Swift-Algorithm-Example",
-            targets: ["Dynamic","Ordering"]
+            targets: []
         ),
     ],
     targets: [
