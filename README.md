@@ -4,7 +4,7 @@
   <img src="https://github.com/Ing-Brayan-Martinez/Swift-Algorithm-Example/blob/main/.github/assest/Swift.webp" alt="Swift" width="800"/>
 </h1>
 
-[![Dart Continuous Integration](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml)
+[![Swift Continuous Integration](https://github.com/Ing-Brayan-Martinez/Swift-Algorithm-Example/actions/workflows/swift.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Swift-Algorithm-Example/actions/workflows/swift.yml)
 
 ### Introduccion
 
