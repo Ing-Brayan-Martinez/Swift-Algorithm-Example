@@ -8,7 +8,17 @@
 import Testing
 @testable import Dynamic
 
-@Test func factorialTest() async throws {
-    factorial(n: 5)
-    print("hola...........")
+@Test func fizzbuzzTest() async throws {
+    let num: Int = 5
+    let expectedValue: String = "Buzz"
+
+    print("-- FizzBuzz -- \n\n")
+
+    let resultValue: String = fizzbuzz(n: num)
+
+    print("FizzBuzz of \(num)  is \(resultValue) \n\n")
+
+    assert(resultValue == expectedValue, "Assert failure!")
+
+    print("Test Passed!")
 }

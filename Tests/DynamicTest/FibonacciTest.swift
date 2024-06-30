@@ -8,7 +8,17 @@
 import Testing
 @testable import Dynamic
 
-@Test func factorialTest() async throws {
-    factorial(n: 5)
-    print("hola...........")
+@Test func fibonacciTest() async throws {
+    let num: Int = 20
+    let expectedValue: Int = 6765
+
+    print("-- Fibonacci -- \n\n")
+
+    let resultValue: Int = fibonacci(n: num)
+
+    print("Fibonacci of \(num)  is \(resultValue) \n\n")
+
+    assert(resultValue == expectedValue, "Assert failure!")
+
+    print("Test Passed!")
 }
