@@ -1,0 +1,3 @@
+swift build;
+
+swift test;
