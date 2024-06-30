@@ -9,3 +9,4 @@ DerivedData/
 /.vscode/
 /.idea/
 /.swiftpm/
+Package.resolved

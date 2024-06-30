@@ -14,6 +14,9 @@ let package = Package(
             targets: ["Dynamic","Ordering"]
         ),
     ],
+    dependencies: [
+      .package(url: "https://github.com/apple/swift-testing.git", branch: "main"),
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
@@ -24,6 +27,8 @@ let package = Package(
             name: "Ordering"),
         .testTarget(
             name: "DynamicTest",
-            dependencies: ["Dynamic"]),
+            dependencies: ["Dynamic"
+                           ,.product(name: "Testing", package: "swift-testing")
+                          ]),
     ]
 )
