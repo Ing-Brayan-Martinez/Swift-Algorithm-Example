@@ -1,7 +1,7 @@
 <h1 align="center">Aprendiendo el Lenguaje Swift</h1>
 
 <h1 align="center">
-  <img src="https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/blob/master/.github/assest/Dart.png" alt="Swift" width="800"/>
+  <img src="https://github.com/Ing-Brayan-Martinez/Swift-Algorithm-Example/blob/main/.github/assest/Swift.webp" alt="Swift" width="800"/>
 </h1>
 
 [![Dart Continuous Integration](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml)
