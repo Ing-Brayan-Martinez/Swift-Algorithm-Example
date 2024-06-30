@@ -11,7 +11,7 @@ let package = Package(
         // Se define la visibilidad de la librería
         .library(
             name: "Swift-Algorithm-Example",
-            targets: ["Dynamic","Ordering"]
+            targets: ["Dynamic","Ordering","Util"]
         ),
     ],
     dependencies: [
@@ -25,10 +25,18 @@ let package = Package(
             name: "Dynamic"),
         .target(
             name: "Ordering"),
+        .target(
+            name: "Util"),
         .testTarget(
             name: "DynamicTest",
             dependencies: ["Dynamic"
                            ,.product(name: "Testing", package: "swift-testing")
+                          ]),
+       .testTarget(
+            name: "OrderingTest",
+            dependencies: ["Ordering"
+                          ,"Util"
+                          ,.product(name: "Testing", package: "swift-testing")
                           ]),
     ]
 )
