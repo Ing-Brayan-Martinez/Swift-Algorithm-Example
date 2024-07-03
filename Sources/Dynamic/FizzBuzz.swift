@@ -7,11 +7,11 @@
 
 public func fizzbuzz(n: Int) -> String {
     switch n {
-    case 3 * 5:
+    case let n where n % 3 == 0 && n % 5 == 0:
       return "FizzBuzz";
-    case 3:
+    case let n where n % 3 == 0:
       return "Fizz";
-    case 5:
+    case let n where n % 5 == 0:
       return "Buzz";
     default:
       return "\(n)";
