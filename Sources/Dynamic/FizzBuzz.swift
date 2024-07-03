@@ -6,13 +6,14 @@
 //
 
 public func fizzbuzz(n: Int) -> String {
-    if n % 3 == 0 && n % 5 == 0 {
-       return "FizzBuzz";
-    } else if n % 3 == 0 {
-       return "Fizz";
-    } else if n % 5 == 0 {
-       return "Buzz";
-    } else {
-        return "\(n)";
+    switch n {
+    case 3 * 5:
+      return "FizzBuzz";
+    case 3:
+      return "Fizz";
+    case 5:
+      return "Buzz";
+    default:
+      return "\(n)";
     }
 }
